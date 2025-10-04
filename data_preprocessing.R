@@ -96,3 +96,5 @@ groups <- factor(phenotype_data$`smoking status:ch1`,
                  labels = c("Non-Smoker", "Smoker"))
 class(groups)
 levels(groups)
+
+dim(filtered_data)
